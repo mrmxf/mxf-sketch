@@ -1,0 +1,9 @@
+{
+    "module": "partition",
+
+    "template": "block-file.svg",
+    "color": "theme.color.text",
+    "fill": "theme.color.partition",
+    "w":20,
+    "h":100
+}

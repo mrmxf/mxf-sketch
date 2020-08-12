@@ -1,0 +1,7 @@
+<g class="layer">
+    <title>block-file</title>
+    <rect  x="{{x}}" y="{{y}}"  id="{{id}}" style="fill:{{fill}}; width:{{width}}; height:{{h}}; stroke:{{stroke}}; stroke-width:{{stroke-width}};"/>
+    <text
+     fill="{{color}}" font-family="Sans-serif" font-size="18" id="svg_11" opacity="0.5" stroke="#000000" stroke-width="0" text-anchor="middle" x="150" xml:space="preserve" y="70">Header</text>
+    <text fill="#000000" font-family="Sans-serif" font-size="18" id="svg_2" opacity="0.5" stroke="#000000" stroke-width="0" style="cursor: text;" text-anchor="middle" x="160" xml:space="preserve" y="90">Partition</text>
+</g>

@@ -1,0 +1,7 @@
+/*******************************
+     Global Variables for MrMXF Less theme
+*******************************/
+
+@primaryColor: #C2A649;
+@pageBackground: #080808;
+
