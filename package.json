@@ -2,6 +2,17 @@
   "name": "mxf-sketch",
   "version": "0.1.0",
   "private": true,
+  "author": "mrmxf",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com:mrmxf/mxf-sketch/issues"
+  },
+  "homepage": "https://github.com:mrmxf/mxf-sketch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:mrmxf/mxf-sketch.git"
+  },
+
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
