@@ -1,0 +1,9 @@
+{
+    "module": "contentPackage",
+    "w":100,
+    "h":100,
+
+    "strokeWidth":1,
+    "color":"#000",
+    "fill":"#CCFFFF"
+}

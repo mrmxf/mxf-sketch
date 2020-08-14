@@ -1,0 +1,74 @@
+{
+    "annotation": "mxf-svg-gen drawing file via https://onlinejsontools.com/convert-json-to-yaml",
+    "configuration": {
+        "type": "file-structure",
+        "theme": "default",
+        "default_filename": "st-xxxx-WD-figure-01.svg"
+    },
+    "caption": "Figure 1 - Single Essence Location Style",
+    "blocks": [
+        {
+        "type": "group",
+        "name": "Header Partition",
+        "decoration": {
+            "title": true,
+            "symbol": "arrow",
+            "position": "below"
+        },
+        "blocks": [{
+            "type": "group",
+            "name": "File Header",
+            "decoration": {
+                "title": true,
+                "symbol": "curly-brace",
+                "position": "above"
+            },
+            "blocks": [{
+                "type": "partition",
+                "name": "HPP"
+            }, {
+                "type": "metadata",
+                "name": "Header Metadata"
+            }, {
+                "type": "indexTable",
+                "name": "Index Table"
+            }]
+        }, {
+            "type": "group",
+            "name": "File Body",
+            "decoration": {
+                "title": true,
+                "symbol": "curly-brace",
+                "position": "above"
+            },
+            "blocks": [{
+                "type": "contentPackage",
+                "name": "Edit Unit",
+                "repeat": 3
+            }, {
+                "type": "contentPackage",
+                "name": "..."
+            }, {
+                "type": "contentPackage",
+                "name": "Edit Unit",
+                "repeat": 2
+            }]
+        }]
+    }, {
+        "type": "group",
+        "name": "Footer Partition",
+        "decoration": {
+            "symbol": "arrow",
+            "position": "below"
+        },
+        "blocks": [{
+                "type": "partition",
+                "name": "FPP"
+            },
+            {
+                "type": "rip",
+                "name": "RIP"
+            }
+        ]
+    }]
+}
