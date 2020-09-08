@@ -85,13 +85,19 @@ export default class FileStructure extends Component {
                 {svg_components}
             </svg>
         )
+        let svg_string = ReactDOMServer.renderToStaticMarkup(svg_element)
+        // svg_string = svg_string.replace(/"/g, "'",)
+        let img_element=(
+            <img alt="MXF File Structure" src={`data:image/svg+xml;utf8,${svg_string}`} />
+        )
         
         //update the svg text for the parent obect to download
-        let txt = ReactDOMServer.renderToStaticMarkup(svg_components)
+        let txt = ReactDOMServer.renderToStaticMarkup(svg_element)
         this.props.update_svg(txt)
         let messages = body_stash.extract("messages")
 
         //@ToDo - provide a callback to handle body.tracker.messages
+        // return (<div>{svg_element}{messages}</div>)
         return (<div>{svg_element}{messages}</div>)
     }
 }

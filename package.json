@@ -5,12 +5,11 @@
   "author": "mrmxf",
   "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com:mrmxf/mxf-sketch/issues"
+    "url": "https://github.com/mrmxf/mxf-sketch/issues"
   },
-  "homepage": "https://github.com:mrmxf/mxf-sketch#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:mrmxf/mxf-sketch.git"
+    "url": "git+https://github.com/mrmxf/mxf-sketch.git"
   },
 
   "dependencies": {
